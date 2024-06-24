@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: servicelogin
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: usrDBLoginRegister
+  jackson:
+    default-property-inclusion: NON_NULL
+server:
+  port: 8080
